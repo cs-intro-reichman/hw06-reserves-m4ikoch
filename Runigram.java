@@ -107,7 +107,7 @@ public class Runigram {
 				verticalFlipped[i][j] = image[image.length - 1 - i][j];
 			}
 		}
-		return vFlipped;
+		return verticalFlipped;
 	}
 	
 	// Computes the luminance of the RGB values of the given pixel, using the formula 
